@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TEMPLATE</title>
+    <link rel="icon" href="img/rising.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animat.min.css">
+    <link rel="stylesheet" href="script.js">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+
+<body>
+    <div class="grid-container">
+        <header id="head" class="slideLeft">
+            <ul>
+                <li class="item-class">Acceuil</li>
+                <li class="item-class">Menu</li>
+                <li class="item-class">Thème</li>
+                <li class="item-class">Juste</li>
+                <li class="item-class">Ambiance</li>
+                <li class="item-class">Style</li>
+            </ul>
+        </header>
+        <figure class="imag">
+            <figcaption id="hermes"></figcaption>
+            <script>
+                "use static";!function(){function e(e,t,n){void 0===n&&(n={}),this.options={write_speed:250,write_acceleration:1,write_random:.1,write_pause:2e2,clear_speed:62.5,clear_acceleration:1,clear_random:.2,clear_pause:500};var e="string"==typeof e||e instanceof String?document.getElementById(e):e;if(!("innerHTML"in e))throw"no element";for(var i in n)this.options[i]=n[i];n=this.options,t=[].concat(t);var r=e.innerHTML,a=r.length,c=-1,o=function(){a-->0?(e.className="active",e.innerHTML=r.slice(0,a),setTimeout(o,n.clear_speed+n.clear_speed*a/r.length*n.clear_acceleration+n.clear_speed*n.clear_random*Math.random())):(r=""+t[c=(c+1)%t.length],setTimeout(s,n.clear_pause))},s=function(){a++<r.length?(e.innerHTML=r.slice(0,a),setTimeout(s,n.write_speed+n.write_speed*-a/r.length*n.write_acceleration+n.write_speed*n.write_random*Math.random())):(e.className="",setTimeout(o,n.write_pause))};s()}new e("hermes",["Bienvenue de ma page d'acceuil","Apprendre à code","Trouvez-nous facilement","Bonne week-end.!"])}();
+            </script>
+            <article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta. Lorem ipsum dolor sit amet.</article>
+            <img src="img/Top-Ganesh-Chaturthi-Messages-Images-Photos.jpg">
+        </figure>
+    </div>
+    <div class="grid-articles">
+        <p class="fig">Une <span>page</span> plusieurs thèmes</p>
+        <article class="art">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure debitis dolorum hic assumenda odio natus facilis, cumque. Rerum qui repudiandae harum, dolorem quos sunt quaerat. Recusandae assumenda ducimus facilis iure.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure debitis dolorum hic assumenda odio natus facilis, cumque. Rerum qui repudiandae harum, dolorem quos sunt quaerat. Recusandae assumenda ducimus facilis iure.</article>
+    </div>
+    <div class="nav-article">
+        <article class="art2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo consectetur quasi laborum ad hic pariatur et recusandae eum numquam laudantium voluptatibus, sint molestias molestiae unde iure eligendi saepe <a href="#">temporibus perspiciatis</a>
+        </article>
+        <nav class="nav">
+            <ul>
+                <li class="item-themes">Thèmes</li>
+                <li class="item-themes">Thèmes</li>
+                <li class="item-themes">Thèmes</li>
+                <li class="item-themes">Thèmes</li>
+                <li class="item-themes">Thèmes</li>
+                <li class="item-themes">Thèmes</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="section-footer">
+        <section id="sect">
+            <article class="art3">
+                <h3 id="side">Side-bar</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa officia rerum iure, amet nemo magnam!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa officia rerum iure, amet nemo magnam!</p>
+            </article>
+        </section>
+        <footer class="foot">
+            <ul>
+                <li class="item-class-foot">Acceuil</li>
+                <li class="item-class-foot">Menu</li>
+                <li class="item-class-foot">Thème</li>
+                <li class="item-class-foot">Juste</li>
+                <li class="item-class-foot">Ambiance</li>
+                <li class="item-class-foot">Style</li>
+            </ul>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
