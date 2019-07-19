@@ -191,7 +191,6 @@ span {
     font-family: Tahoma;
     word-break: break-all;
     text-align: center;
-   margin: 0 auto;
 
 }
 
@@ -238,6 +237,7 @@ h3:hover {
     padding: 32px;
     color: aliceblue;
     font-size: 22px;
+   text-align: center;
     background-image: -webkit-gradient(linear, left bottom, right top, from(#2c3e4a), color-stop(#3e4960), color-stop(#5d5070), color-stop(#825675), color-stop(#a25e6e), color-stop(#b56b6a), color-stop(#c37b65), color-stop(#ca8e62), color-stop(#d3a36b), color-stop(#dab976), color-stop(#dfcf85), to(#e2e598));
     background-image: linear-gradient(to right top, #2c3e4a, #3e4960, #5d5070, #825675, #a25e6e, #b56b6a, #c37b65, #ca8e62, #d3a36b, #dab976, #dfcf85, #e2e598);
 }
